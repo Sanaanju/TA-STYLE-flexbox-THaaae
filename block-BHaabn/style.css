@@ -1,0 +1,80 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+.body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+} 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto Slab",serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.header {
+    background-color: #22396a;
+    padding: 15px 0;
+}
+.brand img {
+    width: 150px;
+}
+.nav a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 33px;
+}
+.nav .active {
+    color: #30ba66;
+    font-weight: 600;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gallery {
+    padding: 110px 0;
+}
+.heading {
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.column {
+    flex: 0 1 32%;
+    margin: 15px 0;
+}
+.gallery-image {
+    width: 100%;
+    border-radius: 7px;
+    border: 9px solid green;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.footer {
+    background-color: #22396a;
+    padding: 32px 0;
+    color: #bcc1d2;
+    font-size: 24px;
+
+}
+.footer a {
+    font-size: 22px;
+    text-decoration: none;
+    color: aquamarine;
+}
